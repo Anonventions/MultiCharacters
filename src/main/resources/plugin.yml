@@ -1,4 +1,11 @@
 name: MultiCharacters
-version: '${project.version}'
-main: org.multicharacters.MultiCharacters
-api-version: 1.19
+version: '1.0-BETA'
+main: org.multicharacters.PlayerProfiles
+authors: [ ImBuzz ]
+depend:
+  - SmartInvs
+
+
+commands:
+  profile:
+    description: Profile basic command
